@@ -61,10 +61,8 @@ table td { font-size: 0px; }
 
 .submit {
 	display: block;
-	    display: block;
     position: relative;
 	margin: auto;
+	top: -20%;
 	}
 
-border: 3px solid #001767; /* stroke */
-background-color: #333; /* layer fill content */
