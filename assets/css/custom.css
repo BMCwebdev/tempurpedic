@@ -5,7 +5,7 @@ IMG.logo {
     margin-right: auto;
     display: block;
 	max-width: 497px;
-    width: 100%;
+    width: 35%;
 }
 
 .givehandbg {
@@ -42,6 +42,29 @@ td img {
 }
 
 table td { font-size: 0px; }
+
+.mainsection img {
+	width:100%;
+	background: rgb(128,128,128); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(128,128,128,1) 0%, rgba(61,60,60,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(128,128,128,1)), color-stop(100%,rgba(61,60,60,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(128,128,128,1) 0%,rgba(61,60,60,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(128,128,128,1) 0%,rgba(61,60,60,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(128,128,128,1) 0%,rgba(61,60,60,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(128,128,128,1) 0%,rgba(61,60,60,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#3d3c3c',GradientType=0 ); /* IE6-9 */
+}
+
+.submitbutton {
+	width: 100%;
+}
+
+.submit {
+	display: block;
+	    display: block;
+    position: relative;
+	margin: auto;
+	}
 
 border: 3px solid #001767; /* stroke */
 background-color: #333; /* layer fill content */
