@@ -8,6 +8,10 @@ IMG.logo {
     width: 35%;
 }
 
+.headlogo {
+	background: white;
+}
+
 .givehandbg {
 /*
 	background-image: url(../images/hand.jpg);
@@ -43,7 +47,7 @@ td img {
 
 table td { font-size: 0px; }
 
-.mainsection img {
+.mainsectionimage {
 	width:100%;
 	background: rgb(128,128,128); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(128,128,128,1) 0%, rgba(61,60,60,1) 100%); /* FF3.6+ */
@@ -57,12 +61,87 @@ table td { font-size: 0px; }
 
 .submitbutton {
 	width: 100%;
+    position:absolute;
+    left:0;
+    top:67%;
 }
+
 
 .submit {
 	display: block;
     position: relative;
 	margin: auto;
-	top: -20%;
+	top: 20%;
 	}
+	
+.fineprint {
+	background: rgb(61,60,60); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(61,60,60,1) 0%, rgba(60,59,59,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(61,60,60,1)), color-stop(100%,rgba(60,59,59,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(61,60,60,1) 0%,rgba(60,59,59,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(61,60,60,1) 0%,rgba(60,59,59,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(61,60,60,1) 0%,rgba(60,59,59,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(61,60,60,1) 0%,rgba(60,59,59,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3c3c', endColorstr='#3c3b3b',GradientType=0 ); /* IE6-9 */
+}
 
+.nittygritty {
+	padding:2% 7% 3%;
+	color: white;
+}	
+
+a {
+	color: #62be1a;
+}
+
+a:hover, a:active, a:focus {
+	color: #6fd51f;
+}
+
+.container {
+	width: 100%;
+	padding: 0px;
+}
+
+.col-xs-12 {
+	padding: 0px;
+}
+
+body {
+	background: #3c3b3b;
+}
+	
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+		body {
+			font-size: 10px;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+		body {
+			font-size: 10px;
+		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+		body {
+			font-size: 12px;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+		body {
+			font-size: 14px;
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		body {
+			font-size: 14px;
+		}
+    }
