@@ -1,0 +1,47 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+IMG.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	max-width: 497px;
+    width: 100%;
+}
+
+.givehandbg {
+/*
+	background-image: url(../images/hand.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+*/
+    
+  background: url(../images/hand.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.thankyou p {
+	color: #001867; /* text color */
+	font-family: "DINPro";
+	font-size: 35px;
+}
+
+.testhand {
+	width: 100%;
+}
+
+td img {
+	width: 100%;
+	display: table;
+}
+
+table td { font-size: 0px; }
+
+border: 3px solid #001767; /* stroke */
+background-color: #333; /* layer fill content */
